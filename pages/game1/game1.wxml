@@ -1,0 +1,17 @@
+<!--pages/game1/game1.wxml-->
+<view>
+  <view wx:if="{{!success}}">
+    <view class='title'>第{{ num+1 }}题</view>
+  <view class='res-box'>
+    <view class='res-btn' wx:key="{{ index }}" wx:for="{{ tiStr }}">{{ resStr[index] }}</view>
+  </view>
+  <view class='res-box'>
+    <view class='res-btn btn' bindtap="push" data-str="{{ item }}" wx:key="{{ index }}" wx:for="{{ btnStr }}">{{ item }}</view>
+  </view>
+  <view class='clear' bindtap='clear'>清除</view>
+  </view>
+  <view wx:if="{{success}}">
+    <view class='success'>恭喜你闯关成功</view>
+    <view class='success-btn' bindtap='back'>返回</view>
+  </view>
+</view>

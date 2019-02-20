@@ -1,0 +1,36 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+.game-box{
+  width: 500rpx;
+  margin: 200rpx auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.game-btn{
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 68rpx;
+  text-align: center;
+  border: 1rpx solid #666;
+  border-radius: 5px;
+}

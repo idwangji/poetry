@@ -1,0 +1,43 @@
+/* pages/game2/game2.wxss */
+/* pages/game1/game1.wxss */
+
+.title{
+  color: rgb(238, 200, 74);
+  text-align: center;
+  font-size: 60rpx;
+}
+.img{
+  width: 80%;
+  height: 400rpx;
+  display: block;
+  margin: 40rpx auto;
+}
+.success{
+  text-align: center;
+  font-size: 44px;
+  color: rgb(43, 230, 43);
+  margin-top: 400rpx;
+}
+.success-btn{
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 60rpx auto;
+  text-align: center;
+  border-radius: 20rpx;
+  background: rgb(43, 230, 43);
+  color: white
+}
+.tip{
+  font-size: 24rpx;
+  text-align: center
+}
+.btn{
+  font-size: 28rpx;
+  margin: 40rpx;
+  background: rgb(209, 209, 59);
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 10rpx;
+  padding-left: 40rpx;
+}

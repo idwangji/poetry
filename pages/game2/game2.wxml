@@ -1,0 +1,21 @@
+<view>
+  <view wx:if="{{!success}}">
+    <view class='title'>第{{ num+1 }}题</view>
+    <image wx:if="{{ num ===0 }}" class='img' src='../../assets/img/hsjmzl.png'></image>
+    <image wx:if="{{ num ===1 }}" class='img' src='../../assets/img/jx.png'></image>
+    <image wx:if="{{ num ===2 }}" class='img' src='../../assets/img/kzx.png'></image>
+    <image wx:if="{{ num ===3 }}" class='img' src='../../assets/img/mh.png'></image>
+    <image wx:if="{{ num ===4 }}" class='img' src='../../assets/img/yl.png'></image>
+    <image wx:if="{{ num ===5 }}" class='img' src='../../assets/img/yzg.png'></image>
+    <image wx:if="{{ num ===6 }}" class='img' src='../../assets/img/zyxdg.png'></image>
+  
+     <view class='tip'>请选出正确答案</view>
+     <view class='btn' bindtap="push" data-str='{{item}}'  wx:key="{{ index }}" wx:for="{{ btnArr }}">
+      {{list[index]}} {{item}}
+     </view>
+  </view>
+  <view wx:if="{{success}}">
+    <view class='success'>恭喜你闯关成功</view>
+    <view class='success-btn' bindtap='back'>返回</view>
+  </view>
+</view>

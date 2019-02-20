@@ -1,0 +1,52 @@
+/* pages/game1/game1.wxss */
+
+.title{
+  color: rgb(238, 200, 74);
+  text-align: center;
+  font-size: 60rpx;
+}
+.res-box{
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.res-btn{
+  width: 34rpx;
+  height: 34rpx;
+  border: 1rpx solid #666;
+  border-radius: 3rpx;
+  line-height: 32rpx;
+  text-align: center;
+  font-size: 28rpx;
+  background: rgb(199, 197, 197);
+  color:#666;
+}
+.btn{
+  background: rgb(209, 209, 59)
+}
+.clear{
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 60rpx auto;
+  text-align: center;
+  border-radius: 20rpx;
+  background: red;
+  color: white
+}
+.success{
+  text-align: center;
+  font-size: 44px;
+  color: rgb(43, 230, 43);
+  margin-top: 400rpx;
+}
+.success-btn{
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 60rpx auto;
+  text-align: center;
+  border-radius: 20rpx;
+  background: rgb(43, 230, 43);
+  color: white
+}
